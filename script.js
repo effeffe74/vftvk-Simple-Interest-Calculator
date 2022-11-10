@@ -16,5 +16,5 @@ function compute()
             document.getElementById("principal").focus();
             return false;            
          }  
-    document.getElementById("result").innerHTML="If you deposit "+principal+",\<br\>at an interest rate of "+rate+"%\<br\>You will receive an amount of "+interest+",\<br\>in the year "+year+"\<br\>"    
+    document.getElementById("result").innerHTML="If you deposit \<span style=\"background-color:yellow;\"\>"+principal+"\</span\>,\<br\>at an interest rate of \<span style=\"background-color:yellow;\"\>"+rate+"%\</span\>\<br\>You will receive an amount of \<span style=\"background-color:yellow;\"\>"+interest+"\</span\>,\<br\>in the year \<span style=\"background-color:yellow;\"\>"+year+"\</span\>\<br\>"    
 }
