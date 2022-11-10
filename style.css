@@ -3,8 +3,17 @@ h1{color:grey;font-family:verdana}
 .maindiv {
     background-color:white;
     color:black;
-    width:300px;
+    width:500px;
     padding:20px;
     border-radius:25px;
     margin: auto;
+    text-align: left
+    }
+    .calculator {
+    background-color:white;
+    color:black;
+    width:300px;
+    margin: auto;
+    text-align: left;
+    line-height: 30px;
     }
